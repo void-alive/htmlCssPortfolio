@@ -72,6 +72,10 @@ nav {
   color: white;
 }
 
+.rest a:link, .rest a:visited{
+  text-decoration: none;
+}
+
 /* 메인 - 로그인 제목 */
 main{
   display: grid;

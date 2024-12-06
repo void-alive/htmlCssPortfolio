@@ -11,6 +11,11 @@ header {
   padding: 10px;
 }
 
+header a:link, header a:visited{
+  text-decoration: none;
+  color: white;
+}
+
 .headerMenu {
   flex-direction: row;
   padding-left: 10px;

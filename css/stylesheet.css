@@ -1,0 +1,523 @@
+* {
+  margin: 0px;
+}
+
+/* 헤더 */
+header {
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.headerMenu {
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header .headerBlank {
+  margin-right: 21%;
+}
+
+/* 네비게이션 */
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.libraryLogo {
+  margin: 10px 32px;
+  scale: 80%;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 h3 {
+  margin: 10px;
+}
+
+/* 백그라운드 */
+.backgroundImage {
+  background-image: url(../images/library.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+/* 백그라운드 - 검색 */
+.search {
+  display: flex;
+  background-color: darkgreen;
+  border: 5px solid darkgreen;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 450px;
+}
+
+.search .button {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.search .text {
+  font-size: 20px;
+}
+
+/* 백그라운드 - 양산도서관 */
+.language {
+  margin: 0px 0px 0px 50px;
+  color: white;
+  float: right;
+}
+
+.language1 {
+  font-size: 15px;
+}
+
+.language2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: lightblue;
+}
+
+/* 메인 - 섹션 - first */
+.first {
+  margin: -150px 0px 0px 450px;
+  display: grid;
+  grid-template-columns: 400px 100px;
+}
+
+/* 메인 - 섹션 - first - announce */
+.announce {
+  background-color: white;
+  padding: 10px;
+}
+
+.announce .line {
+  width: 370px;
+  height: 2px;
+  background-color: gray;
+  margin: 2.5px;
+}
+
+.announce1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.announce1 .fa-solid {
+  margin-right: 10px;
+}
+
+/* 메인 - 섹션 - first - sixMenu */
+.sixMenu {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 200px 200px 200px;
+  /* padding: 10px 0px; */
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 1 */
+.myLibrary {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.myLibrary h3 {
+  color: orangered;
+}
+
+.myLibrary p {
+  font-weight: bold;
+}
+
+.myLibrary .line {
+  width: 170px;
+  height: 2px;
+  background-color: gray;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 2 */
+.electricLibrary {
+  background-color: white;
+  padding: 10px;
+}
+
+.electricLibrary h3 {
+  color: steelblue
+}
+
+.electricLibrary p {
+  font-weight: bold;
+}
+
+.electricLibrary .line {
+  width: 170px;
+  height: 2px;
+  background-color: gray;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 3 */
+.selectProgram {
+  background-color: skyblue;
+  padding: 10px;
+  color: white;
+}
+
+.selectProgram p {
+  font-weight: bold;
+}
+
+.selectProgram .line {
+  width: 170px;
+  height: 2px;
+  background-color: white;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 4 */
+.selectProgramStudy {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+.selectProgramStudy h3 {
+  color: white;
+}
+
+.selectProgramStudy p {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.selectProgramStudy .line {
+  width: 170px;
+  height: 2px;
+  background-color: white;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 5 */
+.oneLibraryOneBook {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.oneLibraryOneBook h3 {
+  color: orangered;
+}
+
+.oneLibraryOneBook p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.oneLibraryOneBook .line {
+  width: 170px;
+  height: 2px;
+  background-color: gray;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - first - sixMenu - 메뉴 6 */
+.bookClub {
+  background-color: white;
+  padding: 10px;
+}
+
+.bookClub p {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.bookClub .line {
+  width: 170px;
+  height: 2px;
+  background-color: gray;
+  margin: 2.5px 0px;
+}
+
+/* 메인 - 섹션 - second */
+.second {
+  margin: 15px 0px 0px 450px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+}
+
+/* 메인 - 섹션 - second - 신착자료 */
+.newArrive {
+  width: 310px;
+  height: 200px;
+}
+
+.newArrive .line {
+  width: 310px;
+  height: 2px;
+  background-color: gray;
+  margin: 5px 0px;
+}
+
+.newArrive .books {
+  display: flex;
+  gap: 3px;
+}
+
+.newArrive .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.books img {
+  padding: 10px 0px;
+  width: 100px;
+}
+
+/* 메인 - 섹션 - second - 휴관일 표 */
+.table table,
+.table th,
+.table td {
+  margin: 5px 0px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 1px;
+}
+
+.table h3 {
+  margin: 0px 0px 5px 0px;
+}
+
+.table .blueTable {
+  background-color: steelblue;
+  color: white;
+  font-weight: bold;
+}
+
+.table .important {
+  color: red;
+}
+
+/* 메인 - 섹션 - second - 휴관일 */
+.second .dayOff {
+  width: 292px;
+  height: 100px;
+  border: 1px solid gray;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+
+}
+
+.dayOff .fa-solid {
+  color: steelblue;
+  scale: 300%;
+  margin: 32px;
+}
+
+.dayOff p {
+  color: red;
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+
+/* 메인 - 섹션 - second - 바로가기 */
+
+.shortCut .sns {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 10px;
+}
+
+.shortCut h3 {
+  margin-top: 32px;
+}
+
+.shortCut .kakaoTalk {
+  width: 140px;
+  height: 80px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kakaoTalk .fa-solid {
+  scale: 150%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.shortCut .instagram {
+  width: 140px;
+  height: 80px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram .fa-brands {
+  scale: 175%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* 메인 - 섹션 - subMenu */
+.subMenu {
+  display: flex;
+  margin-top: -90px;
+}
+
+.subMenu p {
+  font-size: 12px;
+}
+
+/* 메인 - 섹션 - subMenu - 돋보기 */
+.libraryLoan {
+  text-align: center;
+}
+
+.libraryLoan .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - subMenu - 사서물어보기 */
+.askToLibrarian {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.askToLibrarian .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px 17px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - subMenu - 책바다 */
+.bookSea {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.bookSea .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - subMenu - 책나래 */
+.bookWing {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.bookWing .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - subMenu - 청소년자원봉사 */
+.teenagerVolunteer {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.teenagerVolunteer .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px 20px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - subMenu - 오는 길 */
+.howToCome {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.howToCome .fa-solid {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 32px;
+  color: green;
+}
+
+/* 메인 - 섹션 - fourth */
+.third {
+  background-color: steelblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.third .word {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* 푸터 */
+footer {
+  margin: 0px 0px 0px 450px;
+  display: flex;
+  align-items: center;
+}
+
+footer .image{
+  margin: 10px;
+}
+
+footer .ect{
+  color: gray;
+  font-size: 10px;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+
+footer .site{
+  margin-left: 220px;
+  margin-top: -20px;
+}
+
+.site select{
+  font-size: 16px;
+}
+
+.site .button{
+  border: 1px solid grey;
+  background-color: white;
+}

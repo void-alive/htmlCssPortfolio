@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+}
+
+/* 헤더 */
+header {
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.headerMenu {
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header .headerBlank {
+  margin-right: 21%;
+}
+
+/* 네비게이션 */
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.libraryLogo {
+  margin: 10px 32px;
+  scale: 80%;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 h3 {
+  margin: 10px;
+}
+
+/* 메인 - remote */
+.remote{
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-template-columns: 200px;
+  margin: 0px 0px 0px 450px;
+  text-align: center;
+}
+
+.remote p{
+  align-content: center;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.rest p {
+  padding:10px 0px;
+  background-color: white;
+  color: black;
+}
+
+.rest .restLogin{
+  background-color: steelblue;
+  color: white;
+}
+
+/* 메인 - 로그인 제목 */
+main{
+  display: grid;
+  grid-template-columns: 700px 750px;
+}
+
+main .login{
+  margin-top: 40px;
+}
+
+.login h3{
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.loginLine{
+  width: 750px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+/* 메인 - 로그인 내부 */
+fieldset{
+  background-color: lightgray;
+  border: none;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+fieldset .welcome{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset span{
+  color: steelblue;
+}
+
+.fieldsetLine{
+  width: 430px;
+  border: 1px dashed gray;
+  margin: 5px 0px 15px 150px;
+}
+
+/* 메인 - 로그인 번호 입력 */
+.container{
+  display: grid;
+  margin-left: 135px;
+  grid-template-columns: 350px 100px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.idAndPw{
+  display: grid;
+  grid-template-rows: 30px 30px;
+  gap: 5px;
+  border: none;
+}
+
+button{
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+/* 메인 - 회원가입 등 설명문 */
+.lowMenu{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lowMenu p{
+  padding: 0px 5px;
+}
+
+.explain2{
+  margin-left: 22px;
+}
+/* 푸터 */
+footer {
+  margin: 0px 0px 0px 450px;
+  display: flex;
+  align-items: center;
+}
+
+footer .image{
+  margin: 10px;
+}
+
+footer .ect{
+  color: gray;
+  font-size: 10px;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+
+footer .site{
+  margin-left: 220px;
+  margin-top: -20px;
+}
+
+.site select{
+  font-size: 16px;
+}
+
+.site .button{
+  border: 1px solid grey;
+  background-color: white;
+}
